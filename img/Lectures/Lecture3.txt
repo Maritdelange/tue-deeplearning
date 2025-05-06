@@ -1,0 +1,13 @@
+A label function is invariant to a transformation, if the transformation does not change the output of the label function. 
+If that is the case, there is semantic symmetry. For example, if the transformation transforms a blue butterfly to a purple butterfly, 
+and the label function maps the value to a butterfly. Then the label hasn't been changed and there is semantic symmetry. 
+
+If we know that some data has semantic symmetry in a way, we can design the neural network to implement this feature. Then you don't need to learn it anymore. 
+
+Data domains have associated symmetric. For example, images should have translation invariance. This means that shifting the image doesn't change the content.
+Graphs are a network of nodes and vertices. They are invariant to node permutations. This means it should not matter how you decide to order the nodes into vectors. 
+I doesn't matter how you order the nodes, it only matters how nodes are connected to other nodes. It is effectively just a set of nodes with features. 
+
+equivariance vs invariance
+invariance: when the tranformation doesnt change the output of the function. 
+equivariance: 
